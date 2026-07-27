@@ -1,7 +1,17 @@
 aid: frontagelab
-name: frontagelab
-description: frontagelab is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Frontage Laboratories
+description: Frontage Laboratories is a global contract research organization (CRO)
+  providing integrated, science-driven drug discovery and development services across
+  the pharmaceutical and biotechnology lifecycle. Its services span drug discovery
+  (chemistry, biology, ADME/toxicology screening, pharmacology), drug development
+  (DMPK, preclinical safety and toxicology, clinical trial support), laboratory testing
+  (bioanalysis, genomics, central lab, biomarkers), CMC (product development, formulation,
+  analytical services, manufacturing), and agrochemical support. Frontage operates
+  roughly 28 sites across North America, Asia-Pacific, and Europe with about 2,200
+  employees. It was surfaced as a portfolio company of Qiming Venture Partners and
+  added to the API Evangelist network. Frontage publishes no public developer portal,
+  API, SDK, or programmatic integration surface, so this profile captures company
+  identity and web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/frontagelab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.frontagelab.com/wp-content/uploads/2021/12/Frontage-Logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Contract Research Organization
+- Pharmaceutical
+- Biotechnology
+- Drug Discovery
+- Drug Development
+- Bioanalysis
+- Laboratory Testing
+- CMC
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/frontagelab-domain-security.yml
 - type: Website
-  url: https://frontagelab.com.cn
+  url: https://www.frontagelab.com
+- type: Blog
+  url: https://www.frontagelab.com/blog
+- type: Support
+  url: https://www.frontagelab.com/contact-us-2/
+- type: TermsOfService
+  url: https://www.frontagelab.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.frontagelab.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

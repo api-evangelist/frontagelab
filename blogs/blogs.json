@@ -1,0 +1,21 @@
+{
+  "repo": "frontagelab",
+  "feeds": [
+    {
+      "source": "https://www.frontagelab.com/feed/",
+      "feed_url": "https://www.frontagelab.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.frontagelab.com",
+      "feed_url": "https://www.frontagelab.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}
